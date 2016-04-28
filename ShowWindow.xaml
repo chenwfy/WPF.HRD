@@ -1,0 +1,10 @@
+﻿<Window x:Class="WPF.HRD.ShowWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ShowWindow" Height="738" Width="496">
+    <Canvas x:Name="Layout" Height="700" Width="480">
+        <ScrollViewer x:Name="Show_Box" Height="660" Width="480" Background="AliceBlue" CanContentScroll="True" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalScrollBarVisibility="Auto"></ScrollViewer>
+        <Button x:Name="Btn_Return" Canvas.Left="7" Canvas.Top="664" Width="100" Height="30" Content="关闭" Click="Btn_Return_Click"></Button>
+        <Label Canvas.Left="125" Canvas.Top="666" Content="正在求解……" Height="28" Name="Lb_Result" Width="328" />
+    </Canvas>
+</Window>
